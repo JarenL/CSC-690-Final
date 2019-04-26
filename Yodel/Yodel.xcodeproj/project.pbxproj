@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051B0FF32272D84500203BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B0FF22272D84500203BD3 /* AppDelegate.swift */; };
+		051B0FF52272D84500203BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B0FF42272D84500203BD3 /* ViewController.swift */; };
+		051B0FF82272D84500203BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051B0FF62272D84500203BD3 /* Main.storyboard */; };
+		051B0FFA2272D84700203BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051B0FF92272D84700203BD3 /* Assets.xcassets */; };
+		051B0FFD2272D84700203BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051B0FFB2272D84700203BD3 /* LaunchScreen.storyboard */; };
+		051B10082272D84800203BD3 /* YodelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B10072272D84800203BD3 /* YodelTests.swift */; };
+		051B10132272D84800203BD3 /* YodelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B10122272D84800203BD3 /* YodelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051B10042272D84800203BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051B0FE72272D84500203BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051B0FEE2272D84500203BD3;
+			remoteInfo = Yodel;
+		};
+		051B100F2272D84800203BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051B0FE72272D84500203BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051B0FEE2272D84500203BD3;
+			remoteInfo = Yodel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051B0FEF2272D84500203BD3 /* Yodel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yodel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051B0FF22272D84500203BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		051B0FF42272D84500203BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		051B0FF72272D84500203BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051B0FF92272D84700203BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		051B0FFC2272D84700203BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		051B0FFE2272D84700203BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051B10032272D84800203BD3 /* YodelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051B10072272D84800203BD3 /* YodelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodelTests.swift; sourceTree = "<group>"; };
+		051B10092272D84800203BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051B100E2272D84800203BD3 /* YodelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		051B10122272D84800203BD3 /* YodelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodelUITests.swift; sourceTree = "<group>"; };
+		051B10142272D84800203BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051B0FEC2272D84500203BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051B10002272D84800203BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051B100B2272D84800203BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051B0FE62272D84500203BD3 = {
+			isa = PBXGroup;
+			children = (
+				051B0FF12272D84500203BD3 /* Yodel */,
+				051B10062272D84800203BD3 /* YodelTests */,
+				051B10112272D84800203BD3 /* YodelUITests */,
+				051B0FF02272D84500203BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051B0FF02272D84500203BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051B0FEF2272D84500203BD3 /* Yodel.app */,
+				051B10032272D84800203BD3 /* YodelTests.xctest */,
+				051B100E2272D84800203BD3 /* YodelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051B0FF12272D84500203BD3 /* Yodel */ = {
+			isa = PBXGroup;
+			children = (
+				051B0FF22272D84500203BD3 /* AppDelegate.swift */,
+				051B0FF42272D84500203BD3 /* ViewController.swift */,
+				051B0FF62272D84500203BD3 /* Main.storyboard */,
+				051B0FF92272D84700203BD3 /* Assets.xcassets */,
+				051B0FFB2272D84700203BD3 /* LaunchScreen.storyboard */,
+				051B0FFE2272D84700203BD3 /* Info.plist */,
+			);
+			path = Yodel;
+			sourceTree = "<group>";
+		};
+		051B10062272D84800203BD3 /* YodelTests */ = {
+			isa = PBXGroup;
+			children = (
+				051B10072272D84800203BD3 /* YodelTests.swift */,
+				051B10092272D84800203BD3 /* Info.plist */,
+			);
+			path = YodelTests;
+			sourceTree = "<group>";
+		};
+		051B10112272D84800203BD3 /* YodelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				051B10122272D84800203BD3 /* YodelUITests.swift */,
+				051B10142272D84800203BD3 /* Info.plist */,
+			);
+			path = YodelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051B0FEE2272D84500203BD3 /* Yodel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051B10172272D84800203BD3 /* Build configuration list for PBXNativeTarget "Yodel" */;
+			buildPhases = (
+				051B0FEB2272D84500203BD3 /* Sources */,
+				051B0FEC2272D84500203BD3 /* Frameworks */,
+				051B0FED2272D84500203BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yodel;
+			productName = Yodel;
+			productReference = 051B0FEF2272D84500203BD3 /* Yodel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051B10022272D84800203BD3 /* YodelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051B101A2272D84800203BD3 /* Build configuration list for PBXNativeTarget "YodelTests" */;
+			buildPhases = (
+				051B0FFF2272D84800203BD3 /* Sources */,
+				051B10002272D84800203BD3 /* Frameworks */,
+				051B10012272D84800203BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051B10052272D84800203BD3 /* PBXTargetDependency */,
+			);
+			name = YodelTests;
+			productName = YodelTests;
+			productReference = 051B10032272D84800203BD3 /* YodelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		051B100D2272D84800203BD3 /* YodelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051B101D2272D84800203BD3 /* Build configuration list for PBXNativeTarget "YodelUITests" */;
+			buildPhases = (
+				051B100A2272D84800203BD3 /* Sources */,
+				051B100B2272D84800203BD3 /* Frameworks */,
+				051B100C2272D84800203BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051B10102272D84800203BD3 /* PBXTargetDependency */,
+			);
+			name = YodelUITests;
+			productName = YodelUITests;
+			productReference = 051B100E2272D84800203BD3 /* YodelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051B0FE72272D84500203BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jaren Lynch";
+				TargetAttributes = {
+					051B0FEE2272D84500203BD3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					051B10022272D84800203BD3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 051B0FEE2272D84500203BD3;
+					};
+					051B100D2272D84800203BD3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 051B0FEE2272D84500203BD3;
+					};
+				};
+			};
+			buildConfigurationList = 051B0FEA2272D84500203BD3 /* Build configuration list for PBXProject "Yodel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051B0FE62272D84500203BD3;
+			productRefGroup = 051B0FF02272D84500203BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051B0FEE2272D84500203BD3 /* Yodel */,
+				051B10022272D84800203BD3 /* YodelTests */,
+				051B100D2272D84800203BD3 /* YodelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051B0FED2272D84500203BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051B0FFD2272D84700203BD3 /* LaunchScreen.storyboard in Resources */,
+				051B0FFA2272D84700203BD3 /* Assets.xcassets in Resources */,
+				051B0FF82272D84500203BD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051B10012272D84800203BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051B100C2272D84800203BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051B0FEB2272D84500203BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051B0FF52272D84500203BD3 /* ViewController.swift in Sources */,
+				051B0FF32272D84500203BD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051B0FFF2272D84800203BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051B10082272D84800203BD3 /* YodelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051B100A2272D84800203BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051B10132272D84800203BD3 /* YodelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051B10052272D84800203BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051B0FEE2272D84500203BD3 /* Yodel */;
+			targetProxy = 051B10042272D84800203BD3 /* PBXContainerItemProxy */;
+		};
+		051B10102272D84800203BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051B0FEE2272D84500203BD3 /* Yodel */;
+			targetProxy = 051B100F2272D84800203BD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051B0FF62272D84500203BD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051B0FF72272D84500203BD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051B0FFB2272D84700203BD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051B0FFC2272D84700203BD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051B10152272D84800203BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		051B10162272D84800203BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051B10182272D84800203BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yodel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JarenL.Yodel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051B10192272D84800203BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yodel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JarenL.Yodel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		051B101B2272D84800203BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YodelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JarenL.YodelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yodel.app/Yodel";
+			};
+			name = Debug;
+		};
+		051B101C2272D84800203BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YodelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JarenL.YodelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yodel.app/Yodel";
+			};
+			name = Release;
+		};
+		051B101E2272D84800203BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YodelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JarenL.YodelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yodel;
+			};
+			name = Debug;
+		};
+		051B101F2272D84800203BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YodelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JarenL.YodelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yodel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051B0FEA2272D84500203BD3 /* Build configuration list for PBXProject "Yodel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051B10152272D84800203BD3 /* Debug */,
+				051B10162272D84800203BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051B10172272D84800203BD3 /* Build configuration list for PBXNativeTarget "Yodel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051B10182272D84800203BD3 /* Debug */,
+				051B10192272D84800203BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051B101A2272D84800203BD3 /* Build configuration list for PBXNativeTarget "YodelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051B101B2272D84800203BD3 /* Debug */,
+				051B101C2272D84800203BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051B101D2272D84800203BD3 /* Build configuration list for PBXNativeTarget "YodelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051B101E2272D84800203BD3 /* Debug */,
+				051B101F2272D84800203BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051B0FE72272D84500203BD3 /* Project object */;
+}
