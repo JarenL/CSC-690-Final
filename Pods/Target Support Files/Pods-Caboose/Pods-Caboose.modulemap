@@ -1,0 +1,6 @@
+framework module Pods_Caboose {
+  umbrella header "Pods-Caboose-umbrella.h"
+
+  export *
+  module * { export * }
+}

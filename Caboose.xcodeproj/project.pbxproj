@@ -14,6 +14,12 @@
 		05AD0456228C99FF0029D793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD0454228C99FF0029D793 /* LaunchScreen.storyboard */; };
 		05AD0461228C99FF0029D793 /* CabooseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD0460228C99FF0029D793 /* CabooseTests.swift */; };
 		05AD046C228C99FF0029D793 /* CabooseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD046B228C99FF0029D793 /* CabooseUITests.swift */; };
+		05AD047A228C9A660029D793 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05AD0479228C9A660029D793 /* GoogleService-Info.plist */; };
+		05AD047B228C9A660029D793 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05AD0479228C9A660029D793 /* GoogleService-Info.plist */; };
+		05AD047C228C9A660029D793 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05AD0479228C9A660029D793 /* GoogleService-Info.plist */; };
+		2DC867122ADF0C0DD594C1C9 /* Pods_Caboose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EAA38E110F1ADCBE4492EE /* Pods_Caboose.framework */; };
+		8CAD316BC3EF4A74DC042E87 /* Pods_CabooseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98E23F28A893368441B3D33 /* Pods_CabooseTests.framework */; };
+		D1A99EDEEE2138EA5C6A6095 /* Pods_CabooseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278FF000B4B5ACA11BF65A7 /* Pods_CabooseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,16 @@
 		05AD0467228C99FF0029D793 /* CabooseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabooseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AD046B228C99FF0029D793 /* CabooseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabooseUITests.swift; sourceTree = "<group>"; };
 		05AD046D228C99FF0029D793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AD0479228C9A660029D793 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1417352E0896180CA049718E /* Pods-CabooseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabooseTests.release.xcconfig"; path = "Target Support Files/Pods-CabooseTests/Pods-CabooseTests.release.xcconfig"; sourceTree = "<group>"; };
+		20C62F93A5E5F399C7642FD0 /* Pods-CabooseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabooseUITests.debug.xcconfig"; path = "Target Support Files/Pods-CabooseUITests/Pods-CabooseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5278FF000B4B5ACA11BF65A7 /* Pods_CabooseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabooseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9DD87590394C8816D9F861 /* Pods-CabooseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabooseTests.debug.xcconfig"; path = "Target Support Files/Pods-CabooseTests/Pods-CabooseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED0002826CF776A966D11C1 /* Pods-Caboose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caboose.debug.xcconfig"; path = "Target Support Files/Pods-Caboose/Pods-Caboose.debug.xcconfig"; sourceTree = "<group>"; };
+		86EAA38E110F1ADCBE4492EE /* Pods_Caboose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caboose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7429BA5D1D2CA1CD7EAA1E /* Pods-Caboose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caboose.release.xcconfig"; path = "Target Support Files/Pods-Caboose/Pods-Caboose.release.xcconfig"; sourceTree = "<group>"; };
+		A98E23F28A893368441B3D33 /* Pods_CabooseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabooseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E582D5EBB70DA0CFA1FC95C8 /* Pods-CabooseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabooseUITests.release.xcconfig"; path = "Target Support Files/Pods-CabooseUITests/Pods-CabooseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC867122ADF0C0DD594C1C9 /* Pods_Caboose.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAD316BC3EF4A74DC042E87 /* Pods_CabooseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A99EDEEE2138EA5C6A6095 /* Pods_CabooseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				05AD045F228C99FF0029D793 /* CabooseTests */,
 				05AD046A228C99FF0029D793 /* CabooseUITests */,
 				05AD0449228C99FE0029D793 /* Products */,
+				CFCC235F0DC26E4BDC879185 /* Pods */,
+				9FAC3639E381BD3FC5E7B6CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,7 @@
 			children = (
 				05AD044B228C99FE0029D793 /* AppDelegate.swift */,
 				05AD044D228C99FE0029D793 /* ViewController.swift */,
+				05AD0479228C9A660029D793 /* GoogleService-Info.plist */,
 				05AD044F228C99FE0029D793 /* Main.storyboard */,
 				05AD0452228C99FF0029D793 /* Assets.xcassets */,
 				05AD0454228C99FF0029D793 /* LaunchScreen.storyboard */,
@@ -125,6 +147,30 @@
 			path = CabooseUITests;
 			sourceTree = "<group>";
 		};
+		9FAC3639E381BD3FC5E7B6CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86EAA38E110F1ADCBE4492EE /* Pods_Caboose.framework */,
+				A98E23F28A893368441B3D33 /* Pods_CabooseTests.framework */,
+				5278FF000B4B5ACA11BF65A7 /* Pods_CabooseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCC235F0DC26E4BDC879185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED0002826CF776A966D11C1 /* Pods-Caboose.debug.xcconfig */,
+				8A7429BA5D1D2CA1CD7EAA1E /* Pods-Caboose.release.xcconfig */,
+				5F9DD87590394C8816D9F861 /* Pods-CabooseTests.debug.xcconfig */,
+				1417352E0896180CA049718E /* Pods-CabooseTests.release.xcconfig */,
+				20C62F93A5E5F399C7642FD0 /* Pods-CabooseUITests.debug.xcconfig */,
+				E582D5EBB70DA0CFA1FC95C8 /* Pods-CabooseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05AD0470228C99FF0029D793 /* Build configuration list for PBXNativeTarget "Caboose" */;
 			buildPhases = (
+				FE1CD3672F8BA391A5269C75 /* [CP] Check Pods Manifest.lock */,
 				05AD0444228C99FE0029D793 /* Sources */,
 				05AD0445228C99FE0029D793 /* Frameworks */,
 				05AD0446228C99FE0029D793 /* Resources */,
+				50D80040C3BCFA7EEA623D07 /* [CP] Embed Pods Frameworks */,
+				E5F897AD95CA2900B2080FDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05AD0473228C99FF0029D793 /* Build configuration list for PBXNativeTarget "CabooseTests" */;
 			buildPhases = (
+				7606F3CE7D0671BC94CC457E /* [CP] Check Pods Manifest.lock */,
 				05AD0458228C99FF0029D793 /* Sources */,
 				05AD0459228C99FF0029D793 /* Frameworks */,
 				05AD045A228C99FF0029D793 /* Resources */,
@@ -167,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05AD0476228C99FF0029D793 /* Build configuration list for PBXNativeTarget "CabooseUITests" */;
 			buildPhases = (
+				632C6BF8CCF286E7E4D0ACAF /* [CP] Check Pods Manifest.lock */,
 				05AD0463228C99FF0029D793 /* Sources */,
 				05AD0464228C99FF0029D793 /* Frameworks */,
 				05AD0465228C99FF0029D793 /* Resources */,
@@ -230,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05AD0456228C99FF0029D793 /* LaunchScreen.storyboard in Resources */,
+				05AD047A228C9A660029D793 /* GoogleService-Info.plist in Resources */,
 				05AD0453228C99FF0029D793 /* Assets.xcassets in Resources */,
 				05AD0451228C99FE0029D793 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AD047B228C9A660029D793 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +299,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AD047C228C9A660029D793 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D80040C3BCFA7EEA623D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Caboose/Pods-Caboose-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caboose/Pods-Caboose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632C6BF8CCF286E7E4D0ACAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabooseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7606F3CE7D0671BC94CC457E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabooseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F897AD95CA2900B2080FDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Caboose/Pods-Caboose-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Caboose/Pods-Caboose-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1CD3672F8BA391A5269C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Caboose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05AD0444228C99FE0029D793 /* Sources */ = {
@@ -430,6 +607,7 @@
 		};
 		05AD0471228C99FF0029D793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED0002826CF776A966D11C1 /* Pods-Caboose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +625,7 @@
 		};
 		05AD0472228C99FF0029D793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7429BA5D1D2CA1CD7EAA1E /* Pods-Caboose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +643,7 @@
 		};
 		05AD0474228C99FF0029D793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9DD87590394C8816D9F861 /* Pods-CabooseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +664,7 @@
 		};
 		05AD0475228C99FF0029D793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1417352E0896180CA049718E /* Pods-CabooseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +685,7 @@
 		};
 		05AD0477228C99FF0029D793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C62F93A5E5F399C7642FD0 /* Pods-CabooseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +705,7 @@
 		};
 		05AD0478228C99FF0029D793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E582D5EBB70DA0CFA1FC95C8 /* Pods-CabooseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
