@@ -9,7 +9,9 @@ target 'Caboose' do
 
   pod 'Firebase/Core'
   pod ‘FirebaseUI/Auth'
+  pod 'FirebaseUI/Email'
   pod 'FirebaseUI/Google'
+  pod 'Firebase/Firestore'
 
   target 'CabooseTests' do
     inherit! :search_paths
