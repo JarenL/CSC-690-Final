@@ -24,6 +24,12 @@
 		05787B07228CF3040082A819 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05787B05228CF3040082A819 /* GoogleService-Info.plist */; };
 		05787B08228CF3040082A819 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05787B05228CF3040082A819 /* GoogleService-Info.plist */; };
 		058BAB98228DEA6F0078999F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BAB97228DEA6F0078999F /* BaseViewController.swift */; };
+		05A9FF07228E43DC00E273D5 /* gpm.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A9FF06228E43DC00E273D5 /* gpm.png */; };
+		05A9FF0D228E446100E273D5 /* Wunderkind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05A9FF08228E446000E273D5 /* Wunderkind.mp3 */; };
+		05A9FF0E228E446100E273D5 /* Dreams_Electric.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05A9FF09228E446000E273D5 /* Dreams_Electric.mp3 */; };
+		05A9FF0F228E446100E273D5 /* School_Bus_Shuffle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05A9FF0A228E446100E273D5 /* School_Bus_Shuffle.mp3 */; };
+		05A9FF10228E446100E273D5 /* Dark_Tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05A9FF0B228E446100E273D5 /* Dark_Tranquility.mp3 */; };
+		05A9FF11228E446100E273D5 /* Story_Of_A_Toy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05A9FF0C228E446100E273D5 /* Story_Of_A_Toy.mp3 */; };
 		34B11EB20FA7F61F38CEF337 /* Pods_Music_PlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5126E5A7BCF35AF1486CCC35 /* Pods_Music_PlayerUITests.framework */; };
 		444E6928617262FF59FAFA4B /* Pods_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7306FE349570A948C387D /* Pods_Music_Player.framework */; };
 		A7EBBFD4531B893A7FD8B531 /* Pods_Music_PlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290C5537465425D80B62044A /* Pods_Music_PlayerTests.framework */; };
@@ -68,6 +74,12 @@
 		0524ACE3228CDB29000D27A9 /* Slip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Slip.mp3; sourceTree = "<group>"; };
 		05787B05228CF3040082A819 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		058BAB97228DEA6F0078999F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		05A9FF06228E43DC00E273D5 /* gpm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gpm.png; sourceTree = "<group>"; };
+		05A9FF08228E446000E273D5 /* Wunderkind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wunderkind.mp3; sourceTree = "<group>"; };
+		05A9FF09228E446000E273D5 /* Dreams_Electric.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dreams_Electric.mp3; sourceTree = "<group>"; };
+		05A9FF0A228E446100E273D5 /* School_Bus_Shuffle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = School_Bus_Shuffle.mp3; sourceTree = "<group>"; };
+		05A9FF0B228E446100E273D5 /* Dark_Tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dark_Tranquility.mp3; sourceTree = "<group>"; };
+		05A9FF0C228E446100E273D5 /* Story_Of_A_Toy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Story_Of_A_Toy.mp3; sourceTree = "<group>"; };
 		290C5537465425D80B62044A /* Pods_Music_PlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_PlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE7306FE349570A948C387D /* Pods_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4772A363FB2371CA27C977 /* Pods-Music PlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music PlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-Music PlayerTests/Pods-Music PlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +150,7 @@
 				0524AC9A228CD25D000D27A9 /* SecondViewController.swift */,
 				0524AC9C228CD25D000D27A9 /* Main.storyboard */,
 				0524ACD2228CD72E000D27A9 /* Skjermbilde 2017-01-30 kl. 16.14.11.png */,
+				05A9FF06228E43DC00E273D5 /* gpm.png */,
 				0524ACA1228CD25E000D27A9 /* LaunchScreen.storyboard */,
 				0524ACA4228CD25E000D27A9 /* Info.plist */,
 				05787B05228CF3040082A819 /* GoogleService-Info.plist */,
@@ -167,6 +180,11 @@
 		0524ACD1228CD557000D27A9 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				05A9FF0B228E446100E273D5 /* Dark_Tranquility.mp3 */,
+				05A9FF09228E446000E273D5 /* Dreams_Electric.mp3 */,
+				05A9FF0A228E446100E273D5 /* School_Bus_Shuffle.mp3 */,
+				05A9FF0C228E446100E273D5 /* Story_Of_A_Toy.mp3 */,
+				05A9FF08228E446000E273D5 /* Wunderkind.mp3 */,
 				0524ACE1228CDB28000D27A9 /* Barely_Small.mp3 */,
 				0524ACE2228CDB28000D27A9 /* Fine_Line.mp3 */,
 				0524ACE3228CDB29000D27A9 /* Slip.mp3 */,
@@ -308,15 +326,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A9FF0F228E446100E273D5 /* School_Bus_Shuffle.mp3 in Resources */,
 				0524ACE5228CDB29000D27A9 /* Fine_Line.mp3 in Resources */,
 				0524ACA3228CD25E000D27A9 /* LaunchScreen.storyboard in Resources */,
 				05787B06228CF3040082A819 /* GoogleService-Info.plist in Resources */,
 				0524ACD3228CD72E000D27A9 /* Skjermbilde 2017-01-30 kl. 16.14.11.png in Resources */,
 				0524ACD5228CD82D000D27A9 /* Always_Be_My_Unicorn.mp3 in Resources */,
 				0524ACE4228CDB29000D27A9 /* Barely_Small.mp3 in Resources */,
+				05A9FF07228E43DC00E273D5 /* gpm.png in Resources */,
+				05A9FF0E228E446100E273D5 /* Dreams_Electric.mp3 in Resources */,
+				05A9FF10228E446100E273D5 /* Dark_Tranquility.mp3 in Resources */,
 				0524ACD7228CD834000D27A9 /* Sky_Skating.mp3 in Resources */,
 				0524ACE6228CDB29000D27A9 /* Slip.mp3 in Resources */,
+				05A9FF0D228E446100E273D5 /* Wunderkind.mp3 in Resources */,
 				0524AC9E228CD25D000D27A9 /* Main.storyboard in Resources */,
+				05A9FF11228E446100E273D5 /* Story_Of_A_Toy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,19 +8,28 @@
 
 import UIKit
 import AVFoundation
+import FirebaseUI
 
 var audioPlayer = AVAudioPlayer()
 var songs:[String] = []
 var thisSong = 0
 var audioStuffed = false
 
-class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, FUIAuthDelegate {
     
     @IBOutlet weak var myTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return songs.count
+    }
+    
+    @IBAction func logOut(_ sender: Any) {
+        try! Auth.auth().signOut()
+        performSegue(withIdentifier: "logout", sender: self)
+    }
+    
+    @IBAction func upload(_ sender: Any) {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
